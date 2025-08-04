@@ -1,0 +1,113 @@
+----------------------Group Policy Services-----------------------
+Group Policy is a feature in Microsoft Windows that allows IT administrators to centrally manage and configure 
+operating systems, applications, and user settings in an Active Directory environment.
+
+**Why use Group Policy?
+
+-Centralized control
+-Saves time (no need to set each PC manually)
+-Boosts security
+-Ensures compliance
+-Reduces tech support workload
+
+**Where is it used?
+-Offices to control all employee systems from one server
+-Schools/Colleges to lock down labs
+-Call centers to block unauthorized access
+-IT companies for automated setups
+
+
+
+**============================ Basic Group Policy Services
+
+1>User Account Policies
+Password length, complexity, expiry
+Account lockout after failed attempts
+
+2>Desktop Customization
+Fixed wallpaper, start menu layout, desktop icons
+
+3>Network Proxy Configuration
+Internet access control
+Proxy server settings pus
+
+4>Software Deployment (MSI packages)
+Install apps silently on user machines
+E.g., Chrome, MS Office, Antivirus
+
+5>Login / Logoff Scripts
+Auto-backup, folder cleanup, printer map/unmap
+
+6>Printer Deployment
+Department-wise or user-wise printer mapping
+
+7>Folder Redirection
+Desktop, Documents, Downloads redirect to network
+
+8>Roaming Profiles
+Same user profile on multiple devices
+
+9>Windows Update Management
+Auto-update timing and restart settings
+
+***==================Intermediate Group Policy Services
+
+
+10>USB Port Control
+Block all USB storage devices
+Allow only specific serial numbers (whitelisting)
+
+11>AppLocker / Software Restriction
+Allow only approved applications
+Block games, unauthorized tools
+
+12>Drive Mapping
+Auto map shared folders (Finance, HR, etc.)
+
+13>Power Management
+Auto sleep/shutdown after idle time
+
+14>Legal Notice on Login
+Display company policies or warnings before login
+
+15>Internet Explorer / Edge Policies
+Restrict settings, homepages, extensions
+
+16>Disable Cortana / Microsoft Store
+
+Prevent distraction and reduce resource usage
+
+
+**================== Advanced Group Policy Services
+
+17>BitLocker Drive Encryption Policies
+Enforce encryption with TPM
+Recovery key backup to AD
+
+18>Windows Firewall & Defender Management
+Control inbound/outbound rules
+Enable/Disable Real-Time protection
+
+19>Event Log Policies
+Enable auditing (login, file access, etc.)
+Extend log sizes and retention
+
+20>NTFS Permission Control via GPO
+File/folder level access control from server
+
+21>Browser Extension Management
+Only allow selected extensions in Edge/Chrome
+
+22>OneDrive / Teams Auto Configuration
+Sign-in policy, sync settings, storage control
+
+23>Time Synchronization (NTP)
+Configure all systems to sync with central time server
+
+24>Remote Desktop Access GPO
+Allow/deny RDP for specific users or computers
+
+25>Group-based Policy Targeting
+Apply policies only to certain users/groups/devices
+
+
