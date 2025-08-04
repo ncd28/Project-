@@ -1,0 +1,90 @@
+what is ACL
+
+-> ACL (Access Control List) is a security feature used in network devices, operating systems, 
+and applications to control which users or devices are allowed or denied access to specific resources.
+
+->ACL is a list of rules that allows or blocks traffic based on conditions
+ like IP address, port number, or protocol.
+
+
+
+
+
+
+
+
+
+
+------------------------ACL services ------------------------
+
+***Basic ACL Services (for Small Businesses)
+
+1>Network Access Restrictions
+
+Allow or block access to specific parts of the network for certain users or devices.
+
+Example: Only HR department can access the payroll system.
+
+2>Port-Based ACLs
+
+Control access to specific ports like HTTP (80), HTTPS (443), SSH (22), etc.
+
+3>IP-Based Filtering
+
+Block or allow devices based on internal/external IP addresses.
+
+4>User/Group-Based Access Control
+
+Apply ACL policies based on Active Directory users or groups
+
+
+***Advanced ACL Services (for Medium to Large Clients)
+
+1>Role-Based Access Control (RBAC)
+
+Assign network access based on job roles using firewall/router ACLs.
+
+2>Time-Based ACLs
+
+Allow or block access during specific hours (e.g., only during office hours).
+
+3>ACL with VPN Integration
+
+Restrict VPN users to access only required resources securely.
+
+4>Application Layer ACL (Layer 7)
+
+Deep packet inspection and content-based restrictions (e.g., block YouTube, torrents).
+
+5>Firewall ACL Management
+
+Configure ACLs on security appliances like Cisco ASA, FortiGate, Palo Alto, etc.
+
+6>Logging and Monitoring
+
+Monitor ACL activity and keep logs for security audits and compliance.
+
+7>ACL Automation and Cleanup
+
+Regularly review, remove old ACL rules, and generate audit reports.
+
+
+Plan	                       Features	                                             Suggested Price (₹)
+Basic Plan	IP & Port Filtering, Up to 10 Devices	                              ₹4,000 / month
+ 
+Standard Plan	IP + Role-based ACL, VPN ACL, Basic Logging & Monitoring	      ₹8,000 / month
+
+Premium Plan	Full Firewall ACL, L7 Inspection, Reports, Compliance Support,        ₹15,000 / month
+                       Custom Rule Automation	
+
+***Client Types Suitable for ACL Services
+
+Client Type	               Why They Need ACL Services
+
+Small Offices	          Basic network control and device restrictions
+Schools/Colleges	  Limit access to lab devices, student internet filtering
+Hospitals	          Protect sensitive patient data and restrict network access
+Finance/Banking Firms	  High-security requirements and access segmentation
+Manufacturing Companies   IoT network protection and controlled machine access
+Cloud-Based Businesses	  Apply ACLs on cloud networks like AWS/Azure VPCs
+
