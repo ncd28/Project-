@@ -1,0 +1,83 @@
+**What is DNS
+DNS (Domain Name System) is like the phonebook of the internet. It converts human-readable domain names
+ (like www.google.com) into IP addresses (like 142.250.183.206) that computers use to communicate.
+
+Record Type	    Purpose	                     Example
+A	         Hostname → IPv4 address	     www → 192.168.1.10
+AAAA	         Hostname → IPv6 address	
+CNAME	         Alias of another name	             ftp → www.example.com
+MX	         Mail server	                     mail → 192.168.1.20
+PTR	         Reverse DNS	                     192.168.1.10 → printer.local
+TXT	         Text info (e.g., SPF, verification)
+
+-------------------------------DNS SERVICES--------------------------------
+
+
+
+
+ 1. Name Resolution Service (A, AAAA records)
+Domain name → IP address mapping
+
+e.g., client1.biz.local → 192.168.1.10
+
+ 2. CNAME Service (Alias Mapping)
+One domain points to another
+
+e.g., www.client.biz → server1.client.biz
+
+ 3. MX Record Service (Mail Exchange)
+Email domain pointing setup
+
+e.g., mail.client.biz → mail server IP
+
+4. PTR Record Service (Reverse Lookup)
+IP address → Domain name mapping
+
+ *#5. Internal DNS for LAN
+LAN based systems ne custom names assign karo
+
+Useful for internal services like: printers, file servers
+
+ **6. Custom Zone Hosting
+e.g., *.clientdomain.com| ne tamara DNS server thi manage karo
+
+Forward/Reverse Lookup Zones banavi shako
+
+ 7. DNS Filtering / Blocking
+Specific domains block karo (ads, adult, etc.)
+
+Blacklist / Whitelist support
+
+ 8. DNS over HTTPS (DoH) / DNS over TLS (DoT)
+Secure DNS query support for privacy
+
+(Technitium DNS supports this)
+
+ 9. DNS Forwarding / Caching
+Fast internet browsing via cache
+
+Upstream DNS use kari forwarding karvo (e.g., Google DNS, Cloudflare)
+
+ 10. Logs & Analytics
+DNS queries log karo
+
+Client ne query reports aapi shako
+
+
+
+
+========================Services=========================
+
+
+  Service Name	                    Description
+
+-Internal Domain Management	= Local domain name resolution
+-Email Routing (MX Setup)	= Email server DNS setup
+-Web Redirects (CNAME)	        = Subdomain redirect management
+-DNS Filtering	                = Block unwanted sites/domains
+-Performance Boost (Caching)	= Cached responses for faster resolution
+-Custom Zone Hosting	        = Private DNS zones for dev/testing
+-Secure DNS (DoH/DoT)	        = Encrypted DNS for privacy
+-Reverse DNS (PTR)	        = Setup IP to domain name mapping
+
+--------------------------------------------------------------------------
