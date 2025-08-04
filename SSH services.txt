@@ -1,0 +1,80 @@
+***What is SSH
+
+->SSH (Secure Shell) is a network protocol that allows you to securely connect to and control remote systems
+ (like servers, computers) over a network. It encrypts all data sent between systems, including passwords.
+
+- Secure Alternative to Telnet/FTP
+- Client-Server Architecture
+- Used for remote login, command execution, and secure file transfer
+
+** SSH in Linux
+How it works:
+-Most Linux distros come with OpenSSH client pre-installed.
+-SSH server (sshd) can be installed for remote access.
+
+
+** SSH in Windows
+ Options:
+1>Built-in OpenSSH (since Windows 10/Server 2019)
+2>Third-party apps: PuTTY, Bitvise, MobaXterm
+
+
+Common Use-Cases (Linux & Windows)
+Use Case	                Example
+Remote login	            Admin logs in to manage server
+File transfer	            Securely copy files using SCP or SFTP
+Automation	            Run remote commands via SSH in scripts
+Git over SSH	            Developers use SSH to access repositories
+Remote troubleshooting	    Helpdesk/admins access user machines securely
+
+
+----------------SSH servcies--------------------
+
+1.  SSH Server Setup & Configuration
+
+-Install and configure OpenSSH on Linux or Windows Server
+-Set custom ports (not default 22)
+-Setup for LAN, cloud, or hybrid environments
+
+2. Key-Based Authentication Setup
+
+-Generate and manage public/private SSH keys
+-Configure passwordless login
+-Improve security by disabling password authentication
+
+3.  Secure File Transfer (SFTP/SCP) Setup
+
+-Provide SFTP access for secure uploads/downloads
+-Set up file access permissions for each user
+-Restrict users to specific directories (chroot jail)
+
+4.  SSH Tunneling and Port Forwarding
+
+-Local/Remote port forwarding for apps or services
+-Access remote databases or web apps securely over SSH
+
+5. SSH Monitoring & Logging
+
+-Enable detailed SSH logs (/var/log/auth.log)
+-Monitor failed login attempts
+-Setup alerts or dashboards for unusual SSH activity
+
+--->Example Tools You Can Install for Clients:
+OpenSSH (Linux/Windows)
+Bitvise SSH Server (Windows GUI option)
+SFTPGo – SFTP + Web UI
+Fail2Ban, UFW, Logwatch – For hardening and monitoring
+
+** Target Clients for SSH Services
+Client Type	            Use Case
+SMBs	                Secure access to cloud servers or internal systems
+Developers	        Remote code deployment, Git over SSH
+IT Teams	        Remote system management, automation
+Schools/Colleges	SSH lab environments for students
+Web Hosting Companies	Give clients SFTP or SSH access to web servers
+
+
+
+
+
+
