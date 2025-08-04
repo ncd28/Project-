@@ -1,0 +1,66 @@
+***What is DHCP (Dynamic Host Configuration Protocol)
+
+->DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and 
+other network settings to devices on a network. This removes the need to manually configure
+ IP addresses on each device.
+
+-----------DHCP servcies------
+
+ 1. DHCP Server Installation & Configuration
+Service Goal:
+Set up a DHCP server (Windows/Linux) to automate IP address distribution.
+
+Includes:
+
+-Installing DHCP role (Windows Server)
+-Enabling DHCP service (Linux: isc-dhcp-server, dnsmasq)
+-Basic service testing on client devices
+
+2. Scope Creation & Management
+Service Goal:
+Define IP pools (scopes) for different network segments.
+
+Includes:
+
+-Setting start & end IP range
+-Defining subnet mask, default gateway, DNS
+-Lease duration configuration
+-Multiple scopes for different VLANs/subnets
+
+3. IP Reservation Setup
+Service Goal:
+Assign fixed IPs to specific devices using MAC address.
+
+Use Case:
+
+Printers, VoIP phones, servers
+
+Includes:
+
+-Mapping MAC → IP
+-Ensuring no duplicate assignment
+-Adding reservation descriptions
+
+ 4. Exclusion Range Configuration
+Service Goal:
+Exclude IPs from the assignable range to avoid conflicts.
+
+Use Case:
+
+-Manual IPs assigned to firewalls, servers, CCTV NVRs, etc.
+
+ 5. DHCP Logging and Monitoring
+Service Goal:
+Track IP assignments, detect conflicts, and monitor usage.
+
+Tools:
+
+-Windows Event Viewer logs
+-Linux syslog (/var/log/syslog)
+-SNMP or third-party tools (PRTG, SolarWinds)
+
+
+
+
+
+
