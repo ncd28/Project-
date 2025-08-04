@@ -1,0 +1,41 @@
+-----------------------Server Setup---------------------------
+
+server install in pysical 
+   or
+vmware worksation 
+
+server install 2019 or 2022
+
+==================services in server===================
+
+1>Active Directory Domain Service          = Manage users, groups, domains, and policies.
+
+2>DHCP Server                              = Automatically assigns IP addresses.
+
+3>DNS Server	                           = Resolves domain names to IP addresses.
+
+4>file and Storage Services	           = File sharing, storage management (NTFS/ReFS, iSCSI, SMB).
+
+5>Hyper-V	                           = Virtualization platform for creating and managing virtual machines.
+
+6>Web Server (IIS)	                   = Hosting websites and web applications.
+
+7>Print and Document Services	           = Manage network printing and scan sharing.
+
+8>Remote Desktop Services (RDS)	           = Provides remote desktop access to users.
+
+9>Windows Server Update Services (WSUS)	   = Centralized management of Windows updates.
+
+10>Failover Clustering	                   = High availability for applications and services.
+
+11>Windows Defender Antivirus	           = Built-in security and malware protection.
+
+12>Network Policy and Access Services  	   = RADIUS, VPN, and policy enforcement.
+
+13>BitLocker Drive Encryption	           = Encrypt drives for security.
+
+14>SMB (Server Message Block)	           = Protocol for file sharing (version 3.1.1 in 2019, 3.1.1+ in 2022).
+
+15>Group Policy --> Local Group Policy	 Individual computer	Disable Control Panel access
+                    Domain Group Policy	 AD users/computers	Deploy wallpaper to all user
+
