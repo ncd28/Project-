@@ -1,0 +1,54 @@
+**what is VPN
+->VPN (Virtual Private Network) is a secure connection method that allows users or systems to access 
+private networks and share data remotely through public networks (like the internet) as if they were
+directly connected to the private network.
+
+**How VPN Works:
+1>The VPN client (user device) connects to a VPN server.
+2>A secure encrypted tunnel is created between the device and the server.
+3>All internet or network traffic goes through this encrypted tunnel.
+4>Your real IP address is hidden and replaced by the VPN server’s IP.
+
+
+**VPN Encryption:
+->Data is encrypted (scrambled) so hackers or ISPs can't read it.
+->Common protocols used:
+      - OpenVPN
+      - L2TP/IPSec
+      - IKEv2
+      - WireGuard
+      - SSTP
+
+
+-----------------VPN services--------------
+
+ 1. Basic VPN Setup Services
+-Point-to-Point VPN (Site-to-Site)
+-Remote Access VPN for users (Windows, macOS, Linux)
+-Protocol support: PPTP, L2TP/IPSec, IKEv2, OpenVPN
+-Device support: Mobile, laptop, desktop, tablet
+
+ 2. VPN Server Setup & Configuration
+-On Windows Server 2019/2022, Linux (Ubuntu/CentOS), or Router-based VPNs
+-Active Directory integration for user authentication
+-Split tunneling or full tunnel setup
+-Firewall and NAT rules setup
+
+ 3. VPN Monitoring & Logs
+-Real-time user activity dashboard
+-Bandwidth usage reports
+-Access logs and connection duration
+-Alerts for failed login attempts or anomalies
+
+ 4. Device & Platform Support
+->VPN client installation and training for:
+-Windows
+-macOS
+-iOS/Android
+-Linux
+
+5. VPN for Businesses / Remote Teams
+-Centralized user management
+-User group access policies
+-Auto-connect and always-on VPN
+-Secure access to internal resources (file server, intranet, ERP)
