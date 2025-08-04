@@ -1,0 +1,52 @@
+*******Storage Servcies**************
+
+--What is Storage in Computing?
+->Storage in computing refers to the hardware and technologies used to save and retrieve digital data—such
+as documents, applications, videos, databases, operating systems, and more.
+
+--What is Storage in Linux?
+->In Linux, storage refers to how the operating system manages disks, partitions, filesystems, and mounted drives 
+so data can be saved, retrieved, and organized effectively.
+
+**Types of Storage (Based on Functionality)
+Type	                    Description	                                 Examples
+Primary Storage	        Fast, volatile memory used for temporary data	RAM (Random Access Memory)
+Secondary Storage	Non-volatile, used for permanent storage	HDDs, SSDs
+Tertiary Storage	Used for archival/backup	                Tape Drives, Optical Discs
+Cloud Storage	        Internet-based remote storage	                Google Drive, AWS S3
+ 
+
+| Service                       | Windows                                                          | Linux                                                  | Use Case for Clients               
+| -------------------------- | ----------------------------------------------- | ------------------------------------------------------------- | -------------------------------------- |
+| Partition Management   | Disk Management tool (`diskmgmt.msc`), `diskpart`   | `fdisk`, `parted`, `lsblk`, `gparted`                         | Creating partitions for OS, data, apps |
+| File System Setup      | NTFS, exFAT, FAT32                                  | ext4, xfs, btrfs, FAT32                                       | Format drives for performance/security |
+| Mounting Drives        | Auto-mount with letters (e.g., D:)                  | Manual mount (`mount /dev/sdX /mnt`) or auto via `/etc/fstab` | Accessing internal or external drives  |
+| Disk Usage Monitoring  | Disk Cleanup, Resource Monitor                      | `df`, `du`, `ncdu`, `iotop`                                   | Detect space issues, optimize storage  |
+| RAID Configuration     | Software RAID via Disk Management or Storage Spaces | `mdadm`, hardware RAID tools                                  | Improve redundancy/performance         |
+| LVM (Logical Volumes)  | Dynamic Volumes, Storage Spaces                     | LVM2 (`pvcreate`, `vgcreate`, `lvcreate`)                     | Resize volumes, snapshots, flexibility |
+| iSCSI Support          | iSCSI Initiator GUI tool                            | `open-iscsi` service, CLI tools                               | Access block-level storage over LAN    |
+| NFS Support            | NFS Client (optional install)                       | Built-in (`nfs-kernel-server`)                                | File sharing between systems           |
+| SMB/CIFS Sharing       | File Sharing via GUI, `net share`                   | Samba (`smb.conf`)                                            | Cross-platform file access             |
+| Encryption             | BitLocker                                           | LUKS, VeraCrypt                                               | Secure data at rest                    |
+| Backup & Restore       | File History, Windows Backup                        | `rsync`, `Timeshift`, `Deja Dup`                              | Local/remote backups for safety        |
+| Storage Quotas         | NTFS disk quotas via GUI                            | `edquota`, `quota`                                            | Control user storage limits            |
+| Snapshots              | Volume Shadow Copy (VSS)                            | LVM snapshots, Btrfs snapshots                                | Rollback or backup points              |
+| Disk Health Monitoring | CHKDSK, Event Viewer                                | `smartctl`, `badblocks`                                       | Detect bad sectors and failures        |
+
+
+
+-------Sample Service Packages You Can Offer:-----------
+**Basic Storage Setup (Windows/Linux)
+-Partitioning
+-File system formatting
+-Mounting or drive letter assignment
+
+**Advanced Storage Solutions
+-RAID setup and testing
+-iSCSI target/initiator configuration
+-NFS or SMB server setup
+
+**Secure Storage Services
+-disk encryption (BitLocker or LUKS)
+-Automated backups
+-Storage monitoring alerts
