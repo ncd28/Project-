@@ -1,0 +1,57 @@
+***USER AND GROUP PERMISSION*****
+
+->what are User/Group Permission Services?
+User/Group Permission Services involve managing who (users or groups) can access what 
+(resources like files, folders, printers, applications) and what they can do (read, write, delete, modify).
+
+->These services are part of access control and security management in both local networks and cloud environments
+
+    Service	                                            Description
+ User Account Setup	                 Creating and managing user profiles
+ Group Creation	                         Logical grouping of users for easy permission control
+ File/Folder Permissions	         Controlling read/write access on shared storage
+ Printer Access	                         Allowing certain users to access specific printers
+ Role-Based Access Control (RBAC)        Assigning permissions based on job roles
+ Auditing & Monitoring	Logging          who accessed or changed what
+ Policy Automation	                 Using scripts or group policy for bulk permission assignment
+
+
+********* User / Group Permission Services 
+ 1. User Account Services
+-User creation (local/domain)
+-Account setup with login scripts and profiles
+-Password policies (expiry, complexity, lockout)
+-Disable or delete inactive users
+
+ 2. Group Management Services
+-Security and distribution group creation
+-Role-based group assignment (e.g., HR, IT, Sales)
+-Nested groups for department-wise hierarchy
+Group membership management
+
+ 3. File & Folder Permission Services
+-NTFS permission setup (Read, Write, Modify, Full Control)
+-Shared folder permission configuration
+-Permission inheritance control
+-Permission documentation (who has access to what)
+
+ 4. Group Policy-Based Access Control
+-Drive mapping based on group/user
+-Desktop and Start Menu restrictions
+-Software access and installation control
+-Printer access via policy
+
+ 5. Printer & Device Access Permissions
+-Restrict access to printers per user/group
+-Control USB or external storage access
+-Set device access time limits (e.g., for interns)
+
+ 6. Access Control Lists (ACL) Configuration
+-Configure detailed ACLs for files, folders, and network shares
+-Setup allow/deny rules
+-Advanced security permission setup
+
+ 7. Permission Auditing & Reporting
+-Track file/folder access logs
+-Identify unauthorized access attempts
+-Generate reports for compliance (ISO, GDPR, HIPAA)
