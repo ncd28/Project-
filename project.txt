@@ -1,0 +1,132 @@
+Project Name: Secure Cloud Infrastructure Setup for Small Business
+
+
+
+🎯 Client Goal:
+Application hosting (e.g., billing, inventory)
+24x7 uptime
+Secure remote access
+Weekly backups
+Low-cost and scalable system
+
+
+
+🏗️ Infrastructure Setup
+
+  🔹 1. Cloud Platform Selection
+  🔹 2. Network Design
+  🔹 3. Server Setup
+  🔹 4. Remote Access & Security
+  🔹 5. Backup & Recovery
+  🔹 6. Monitoring
+
+
+
+
+Document / Output	       Details
+🔹 Network Diagram	        VPC, Subnet, VPN, Server flow
+🔹 Server Inventory	        Hostname, IPs, instance types
+🔹 Access Policy Document	Who has access to what
+🔹 Backup & DR Plan	        Backup frequency + restore steps
+🔹 Training Manual	        How to access VPN, monitor usage, etc.
+
+
+
+
+🔧 Example Tools You’ll Use:
+AWS (EC2, S3, CloudWatch)
+
+OpenVPN (or AWS Client VPN)
+
+MySQL / PostgreSQL
+
+Grafana + Prometheus (optional)
+
+WinSCP / RDP / SSH
+
+
+
+
+✅ Tools Used in Cloud Infrastructure Deployment Project
+
+🔹 1. Cloud Platform Tools
+
+Tool/Service	                   Purpose
+
+AWS EC2 (or Azure VM)	        Virtual Machines for web/database servers
+AWS VPC (or Azure VNet)   	Isolated cloud network environment
+AWS Route 53	                Domain/DNS management
+AWS S3 / Glacier	        File & backup storage
+
+
+
+
+
+🔹 2. Server Configuration Tools
+
+Tool	                      Purpose
+
+ APACHE/Nginx              Web server
+MySQL/PostgreSQL	   Database server
+phpMyAdmin (optional)	   DB GUI access
+FirewallD / UFW            Linux-based firewall setup
+WinSCP / FileZilla	   Secure file transfer (SFTP)
+
+🔹 3. VPN & Remote Access Tools 
+
+Tool	                               Purpose
+
+OpenVPN	                        Secure remote access for clients                                 
+PuTTY / SSH	                Secure server login
+RDP	                        Remote access to Windows servers
+AWS Client VPN (alternative)	Managed VPN
+
+
+🔹 4. Security & Identity Tools 
+
+ Tool                                       Purpose 
+
+AWS IAM	                                 Role-based access control
+MFA (Authy/Google Authenticator)	 Extra login layer
+AWS KMS (optional)	                 Data encryption key management
+CloudTrail	                         Activity logs and auditing
+
+
+🔹 5. Monitoring & Alerting Tools
+
+Tool	                               Purpose 
+
+AWS CloudWatch	                        Real-time monitoring & alerting
+Grafana + Prometheus (optional) 	Visual dashboards
+Uptime Robot (Free)	                Website uptime alerts
+
+
+🔹 6. Backup & Recovery Tools
+
+Tool	                          Purpose
+
+AWS Backup	               Automated backups of EC2/RDS
+S3 Versioning	               Keeps copies of modified/deleted files
+Glacier                       Long-term archive storage
+
+🔹 7. DevOps & Automation Tools (Optional but Powerful)
+
+Tool	                    Purpose
+
+GitHub Actions	         CI/CD automation
+Jenkins         	 Custom build/deploy pipelines
+Terraform	         Infrastructure as Code (IaC)
+AWS CloudFormation	 Deploy complete stack in templates
+
+🔹 8. Documentation & Reporting Tools
+
+Tool	                    Purpose
+
+Draw.io / Lucidchart	Network/infra diagram design
+Excel / Google Sheets	Resource inventory / costing
+Notion / Google Docs	SOP, manuals, access guides
+PowerPoint / Canva	Proposal presentation to client
+
+
+
+
